@@ -1,0 +1,63 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(227, 142, 142); /* Rosa pastel */
+    color: #ffd5d5;
+    text-align: center;
+  }
+  
+  .container {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: #64a53c;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+    font-size: 3em;
+    color: #963c5a; /* Rosa vibrante */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .carousel-container {
+    max-width: 600px; /* Ajusta el ancho del carrusel según tus necesidades */
+    margin: 20px auto; /* Centra el carrusel horizontalmente */
+    text-align: center; /* Añadir text-align para centrar el contenido */
+  }
+
+  .gif {
+
+    margin: auto;
+  }
+  
+  .carousel-item img {
+    max-width: 50%;
+    height: auto;
+    display: inline-block; /* Cambia display a inline-block para permitir centrado */
+    margin: 0 auto; /* Centra las imágenes dentro de los items del carrusel */
+  }
+
+  .carousel-inner img {
+    width: 100%;   /* Asegura que las imágenes ocupen el 100% del ancho del contenedor */
+    height: 400px; /* Fija la altura del carrusel para que sea uniforme */
+    object-fit: cover; /* Esto mantendrá las imágenes centradas y las ajustará sin deformarlas */
+}
+
+  .mensaje p {
+    font-size: 1.2em;
+    color: white;
+  }
+  
+  .galeria img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  
+  .tarjeta p {
+    font-style: italic;
+    font-size: 1.4em;
+  }
+  
