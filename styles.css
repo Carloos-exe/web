@@ -40,7 +40,7 @@ body {
 
   .carousel-inner img {
     width: 100%;   /* Asegura que las imágenes ocupen el 100% del ancho del contenedor */
-    height: 500px; /* Fija la altura del carrusel para que sea uniforme */
+    height: auto; /* Fija la altura del carrusel para que sea uniforme */
     object-fit: cover; /* Esto mantendrá las imágenes centradas y las ajustará sin deformarlas */
 }
 
